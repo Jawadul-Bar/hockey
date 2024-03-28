@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.8.0/dist/full.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/9074d652df.js" crossorigin="anonymous"></script>
+
+    <style>
+        body{
+            font-family: "Manrope", sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="lg:mt-[40px] mx-[0px] lg:mx-[135px]">
+        <div class="container mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a class="text-red-500 font-bold sm:mr-[64px]">Home</a></li>
+                      <li>
+                        <a>About</a>
+                      </li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                      <li><a class="text-gray-500"><i class="fa-solid fa-magnifying-glass pt-1"></i></a></li>
+                    </ul>
+                  </div>
+                  <a class="text-2xl lg:text-4xl font-medium">Hockey<span class="text-red-500">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-red-500 font-bold lg:ml-48">Home</a></li>
+                      <li>
+                        <a class="lg:ml-11">About</a>
+                      </li>
+                      <li class="lg:ml-11"><a>Pages</a></li>
+                      <li class="lg:ml-11"><a>Blog</a></li>
+                      <li><a class="lg:ml-11">Contact</a></li>
+                      <li class="lg:ml-52"><a class="text-gray-500"><i class="fa-solid fa-magnifying-glass pt-1"></i></a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-red-500 text-white hover:bg-red-500 sm:p-[10px]">Get Ticket</a>
+                </div>
+              </div>
+        </div>
+    </header>
+
+    <main class="lg:mt-[40px] mx-[16px] lg:mx-[135px]">
+        <div class="container mx-auto mt-[16px] lg:mt-14">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="Images/trophy.png" class="w-full lg:h-[550px] rounded-2xl" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="Images/hockey-bat-ball.jpg" class="w-full rounded-2xl lg:h-[550px]" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div>
+            <div class="text-center lg:px-[250px]">
+                <h1 class="font-extrabold text-xl lg:text-4xl pt-12 lg:pt-[100px]">Professional Hockey Club</h1>
+                <p class="pt-4 text-gray-500">
+                    Welcome to our professional hockey club! Experience the thrill of the game with us. Join our team of passionate players dedicated to excellence and sportsmanship. Let's hit the ice together!
+                </p>
+            </div>
+
+            <div class="flex flex-col lg:flex-row justify-evenly pt-10 items-center gap-6">
+                <div class="prayer flex flex-col w-[250px] items-center gap-4">
+                  <div class="radial-progress text-red-500 p-4" style="--value:87;" role="progressbar"><span class="text-black font-extrabold text-3xl">87%</span>
+                  </div>
+                  <p class="text-lg font-bold">Prayer Facility</p>
+                  <p class="text-center font-extralight text-base">
+                    The sports club offers a dedicated prayer facility to accommodate the spiritual needs of its diverse members.
+                  </p>
+                </div>
+
+                <div class="prayer flex flex-col w-[250px] items-center gap-4">
+                  <div class="radial-progress text-green-400 p-4" style="--value:95;" role="progressbar"><span class="text-black font-extrabold text-3xl">95%</span></div>
+
+                  <p class="text-lg font-bold">Experienced Coach</p>
+                  <p class="text-center font-extralight text-base">
+                    The experienced coach brings a wealth of knowledge, skill, and passion to guide athletes toward achieving their full potential.
+                  </p>
+                </div>
+
+                <div class="prayer flex flex-col w-[250px] items-center gap-4">
+                  <div class="radial-progress text-yellow-500 p-4" style="--value:90;" role="progressbar"><span class="text-black font-extrabold text-3xl">90%</span></div>
+
+                  <p class="text-lg font-bold">Senior Player</p>
+                  <p class="text-center font-extralight text-base">
+                    The senior player is a seasoned veteran whose experience and leadership qualities are invaluable assets to the team.
+                  </p>
+                </div>
+
+                <div class="prayer flex flex-col w-[250px] items-center gap-4">
+                  
+                  <div class="radial-progress text-blue-500 p-4" style="--value:80;" role="progressbar"><span class="text-black font-extrabold text-3xl">80%</span></div>
+
+                  <p class="text-lg font-bold">Training Ground</p>
+                  <p class="text-center font-extralight text-base">
+                    The training ground is where athletes hone their skills, perfect their techniques, and prepare diligently for upcoming competitions.
+                  </p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+          <div class="text-center lg:px-[250px]">
+              <h1 class="font-extrabold text-xl lg:text-4xl pt-12 lg:pt-[100px]">Program Sections</h1>
+              <p class="pt-4 text-gray-500">
+                Explore our diverse range of programs designed to cater to every athlete's needs and goals.
+              </p>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-20">
+            <div>
+              <div class="hero w-[600px] h-[350px]" style="background-image: url(Images/bat-ball.png);">
+                <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+                <div class="hero-content text-neutral-content px-10">
+                  <div class="max-w-md">
+                    <h1 class="pt-24 text-3xl font-bold">Junior Program</h1>
+                    <p class="my-6">Our junior program provides a supportive and engaging platform for young athletes to learn and develop their skills in a fun and structured environment.</p>
+                    <button class="btn bg-red-500 border-none text-white hover:bg-red-400">Register Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="hero w-[600px] h-[350px]" style="background-image: url(Images/playing.png);">
+                <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+                <div class="hero-content text-neutral-content px-10">
+                  <div class="max-w-md">
+                    <h1 class="pt-16 text-3xl font-bold">Teenager Program</h1>
+                    <p class="my-6">Our teenager program offers a dynamic and inclusive environment for young athletes to enhance their skills, build confidence, and foster a love for sports during this critical stage of development.</p>
+                    <button class="btn bg-red-500 border-none text-white hover:bg-red-400">Register Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lg:col-span-2">
+              <div class="hero w-[full] lg:w-[1240px] h-[400px]" style="background-image: url(Images/players.png);">
+                <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+                <div class="hero-content text-neutral-content">
+                  <div class="lg:pl-10 lg:mr-[610px] sm:px-10 text-left w-[520px] items-start">
+                    <h1 class="pt-24 text-3xl font-bold">Professional Program</h1>
+                    <p class="my-6">The professional program provides elite athletes with advanced training, specialized coaching, and comprehensive support to maximize their performance and achieve their competitive goals at the highest level.</p>
+                    <button class="btn bg-red-500 border-none text-white hover:bg-red-400">Register Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
